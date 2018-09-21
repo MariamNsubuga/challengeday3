@@ -1,4 +1,4 @@
-def list_sort(lis):
+def listsort(lis):
 	
 	dictionary={} #initializing an empty dictionary
 	charlist=[]  #initializing an empty list for characters
@@ -17,4 +17,4 @@ def list_sort(lis):
 	dictionary["odds"]=sorted(oddlist)
 	dictionary["chars"]=sorted(charlist)
 	return dictionary
-print(list_sort([2,0,6,5,1,7,'z','a']))
+print(listsort([2,0,6,5,1,7,'z','a']))
